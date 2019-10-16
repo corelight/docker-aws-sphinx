@@ -5,8 +5,9 @@ LABEL description="Builder/publisher for documentation with aws-cli and Sphinx"
 RUN apk update && \
     apk add -v \
       make \
-      py-pip && \
-    pip install -U \
+      python3 \
+      py3-pip && \
+    pip3 install -U \
       alabaster==0.7.8 \
       Babel==2.3.4 \
       colorama==0.3.3 \
@@ -30,5 +31,5 @@ RUN apk update && \
       sphinx-better-theme==0.1.5 \
       sphinx-rtd-theme==0.1.9 \
       Sphinx==1.4.5 && \
-    apk --purge -v del py-pip && \
+    apk --purge -v del py3-pip && \
     rm /var/cache/apk/*

@@ -3,7 +3,9 @@ LABEL maintainer="Corelight AWS Team <aws@corelight.com>"
 LABEL description="Builder/publisher for documentation with aws-cli and Sphinx"
 
 RUN apk update && \
-    apk add -v py-pip && \
+    apk add -v \
+      make \
+      py-pip && \
     pip install -U \
       alabaster==0.7.8 \
       Babel==2.3.4 \

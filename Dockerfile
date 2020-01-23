@@ -31,6 +31,6 @@ RUN apk update && \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
       sphinx-rtd-theme==0.1.9 \
-      Sphinx==1.4.5 && \
+      Sphinx==2.2.2 && \
     apk --purge -v del py3-pip && \
     rm /var/cache/apk/*

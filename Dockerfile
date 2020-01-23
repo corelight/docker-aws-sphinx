@@ -28,6 +28,7 @@ RUN apk update && \
       rsa==3.4.2 \
       six==1.10.0 \
       snowballstemmer==1.2.1 \
+      sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
       sphinx-rtd-theme==0.1.9 \
       Sphinx==1.4.5 && \

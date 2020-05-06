@@ -4,9 +4,16 @@ LABEL description="Builder/publisher for documentation with aws-cli and Sphinx"
 
 RUN apk update && \
     apk add -v \
+      chromium \
+      freetype \
+      harfbuzz \
+      libstdc++ \
       make \
+      nss \
+      p7zip \
       python3 \
-      py3-pip && \
+      py3-pip \
+      ttf-freefont && \    
     pip3 install -U \
       alabaster==0.7.8 \
       Babel==2.3.4 \
@@ -22,6 +29,7 @@ RUN apk update && \
       Pygments==2.1.3 \
       pyslack==0.3.0 \
       python-dateutil==2.4.2 \
+      python-gitlab==2.2.0 \
       pytz==2016.6.1 \
       pyyaml==3.12 \
       requests==2.10.0 \

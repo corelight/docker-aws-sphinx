@@ -4,14 +4,18 @@ LABEL description="Builder/publisher for documentation with aws-cli and Sphinx"
 
 RUN apk update && \
     apk add -v \
+      build-base \
       chromium \
       freetype \
       harfbuzz \
       libstdc++ \
+      libxml2-dev \
+      libxslt-dev \
       make \
       nss \
       p7zip \
       python3 \
+      python3-dev \
       py3-pip \
       ttf-freefont && \    
     pip3 install -U \
@@ -23,6 +27,7 @@ RUN apk update && \
       imagesize==0.7.1 \
       Jinja2==2.8 \
       jmespath==0.7.1 \
+      lxml==4.6.2 \
       MarkupSafe==0.23 \
       passlib==1.6.5 \
       pyasn1==0.1.8 \

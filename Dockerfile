@@ -30,7 +30,7 @@ RUN apk update && \
       MarkupSafe==0.23 \
       passlib==1.6.5 \
       pyasn1==0.1.8 \
-      Pygments==2.1.3 \
+      Pygments==2.6.1 \
       pyslack==0.3.0 \
       python-dateutil==2.4.2 \
       python-gitlab==2.2.0 \

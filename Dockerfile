@@ -36,7 +36,7 @@ RUN apk update && \
       python-gitlab==2.2.0 \
       pytz==2016.6.1 \
       pyyaml==3.12 \
-      requests==2.10.0 \
+      requests==2.22.0 \
       rsa==3.4.2 \
       six==1.10.0 \
       snowballstemmer==1.2.1 \

@@ -46,6 +46,6 @@ RUN apk update && \
       sphinx-material==0.0.32 \
       sphinx-panels==0.5.2 \
       sphinx-rtd-theme==0.1.9 \
-      Sphinx==6.1.3 && \
+      Sphinx==3.3.0 && \
     apk --purge -v del py3-pip && \
     rm /var/cache/apk/*

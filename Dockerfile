@@ -19,34 +19,33 @@ RUN apk update && \
       py3-pip \
       ttf-freefont && \    
     pip3 install -U \
-      alabaster==0.7.12 \
-      Babel==2.12.1 \
+      alabaster==0.7.8 \
+      Babel==2.3.4 \
       colorama==0.3.3 \
       daemonize==2.3.1 \
-      docutils==0.19 \
-      imagesize==1.4.1 \
-      Jinja2==3.1.2 \
+      docutils==0.12 \
+      imagesize==0.7.1 \
+      Jinja2==2.8 \
       jmespath==0.7.1 \
-      MarkupSafe==2.1.2 \
+      MarkupSafe==0.23 \
       passlib==1.6.5 \
       pyasn1==0.1.8 \
-      Pygments==2.15.0 \
+      Pygments==2.6.1 \
       pyslack==0.3.0 \
       python-dateutil==2.4.2 \
       python-gitlab==2.2.0 \
-      pytz==2019.3 \
+      pytz==2016.6.1 \
       pyyaml==3.12 \
-      requests==2.28.2 \
+      requests==2.22.0 \
       rsa==3.4.2 \
-      six==1.13.0 \
-      snowballstemmer==2.0.0 \
+      six==1.10.0 \
+      snowballstemmer==1.2.1 \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
-      sphinx-copybutton==0.5.0 \
-      sphinx_design==0.5.0 \
-      sphinx-design-elements==0.2.1 \
-      sphinx-material==0.0.35 \
+      sphinx-copybutton==0.5.1 \
+      sphinx-material==0.0.32 \
+      sphinx-panels==0.5.2 \
       sphinx-rtd-theme==0.1.9 \
-      Sphinx==7.1.2 && \
+      Sphinx==3.3.0 && \
     apk --purge -v del py3-pip && \
     rm /var/cache/apk/*

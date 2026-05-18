@@ -43,6 +43,7 @@ RUN apk update && \
       snowballstemmer==2.0.0 \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
+      sphinxcontrib-mermaid==2.0.2 \
       sphinx-copybutton==0.5.0 \
       sphinx_design==0.5.0 \
       sphinx-design-elements==0.2.1 \

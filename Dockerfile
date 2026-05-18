@@ -17,7 +17,7 @@ RUN apk update && \
       python3 \
       python3-dev \
       py3-pip \
-      ttf-freefont && \    
+      ttf-freefont && \
     pip3 install -U \
       alabaster==0.7.12 \
       Babel==2.12.1 \
@@ -43,7 +43,7 @@ RUN apk update && \
       snowballstemmer==2.0.0 \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
-      sphinxcontrib-mermaid==2.0.2 \
+      sphinxcontrib-mermaid==0.9.2 \
       sphinx-copybutton==0.5.0 \
       sphinx_design==0.5.0 \
       sphinx-design-elements==0.2.1 \
